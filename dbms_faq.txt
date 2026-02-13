@@ -1,0 +1,131 @@
+What is DBMS?
+A Database Management System (DBMS) is software that manages databases and provides an interface for users to store, retrieve, and manipulate data efficiently.
+
+What are the advantages of DBMS?
+DBMS reduces data redundancy, improves data integrity, ensures data security, supports data sharing, and provides backup and recovery mechanisms.
+
+What is a database?
+A database is an organized collection of structured data stored electronically for efficient access and management.
+
+What is normalization?
+Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity.
+
+What is 1NF?
+A table is in First Normal Form (1NF) if it contains only atomic values and no repeating groups.
+
+What is 2NF?
+A table is in Second Normal Form (2NF) if it is in 1NF and has no partial dependency on a composite primary key.
+
+What is 3NF?
+A table is in Third Normal Form (3NF) if it is in 2NF and has no transitive dependency.
+
+What is BCNF?
+Boyce-Codd Normal Form (BCNF) is a stronger version of 3NF where every determinant is a candidate key.
+
+What is a primary key?
+A primary key uniquely identifies each record in a table and cannot contain NULL values.
+
+What is a foreign key?
+A foreign key is an attribute that establishes a relationship between two tables by referencing the primary key of another table.
+
+What is a candidate key?
+A candidate key is an attribute or set of attributes that can uniquely identify a record in a table.
+
+What is a super key?
+A super key is a set of one or more attributes that uniquely identifies a record in a table.
+
+What is a composite key?
+A composite key consists of two or more attributes that together uniquely identify a record.
+
+What is indexing?
+Indexing is a technique used to improve the speed of data retrieval operations by creating a data structure that allows fast lookup.
+
+What is a clustered index?
+A clustered index determines the physical order of data in a table and allows only one per table.
+
+What is a non-clustered index?
+A non-clustered index stores a separate structure that points to the data rows in the table.
+
+What is a transaction?
+A transaction is a sequence of database operations treated as a single logical unit of work.
+
+What are ACID properties?
+ACID stands for Atomicity, Consistency, Isolation, and Durability, which ensure reliable transaction processing.
+
+What is Atomicity?
+Atomicity ensures that all operations in a transaction are completed successfully, or none are applied.
+
+What is Consistency?
+Consistency ensures that the database remains in a valid state before and after a transaction.
+
+What is Isolation?
+Isolation ensures that concurrent transactions do not interfere with each other.
+
+What is Durability?
+Durability ensures that once a transaction is committed, the changes are permanently stored even in case of system failure.
+
+What is concurrency control?
+Concurrency control manages simultaneous transactions without causing inconsistency.
+
+What is deadlock?
+Deadlock occurs when two or more transactions wait indefinitely for each other to release resources.
+
+What is two-phase locking?
+Two-phase locking (2PL) is a concurrency control protocol that ensures serializability by dividing execution into growing and shrinking phases.
+
+What is a view?
+A view is a virtual table based on the result of a SQL query.
+
+What is a trigger?
+A trigger is a special procedure that automatically executes in response to certain database events.
+
+What is a stored procedure?
+A stored procedure is a precompiled collection of SQL statements stored in the database.
+
+What is SQL?
+SQL (Structured Query Language) is a standard language used to communicate with relational databases.
+
+What is DDL?
+DDL (Data Definition Language) includes commands like CREATE, ALTER, and DROP used to define database structure.
+
+What is DML?
+DML (Data Manipulation Language) includes commands like INSERT, UPDATE, DELETE, and SELECT.
+
+What is DCL?
+DCL (Data Control Language) includes commands like GRANT and REVOKE used for permissions.
+
+What is TCL?
+TCL (Transaction Control Language) includes commands like COMMIT and ROLLBACK.
+
+What is a schema?
+A schema is the logical structure that defines how database objects are organized.
+
+What is an ER model?
+The Entity-Relationship model is a conceptual design model used to represent database structure using entities and relationships.
+
+What is an entity?
+An entity represents a real-world object or concept that can be uniquely identified.
+
+What is an attribute?
+An attribute describes a property or characteristic of an entity.
+
+What is a relationship?
+A relationship represents an association between two or more entities.
+
+What is cardinality?
+Cardinality defines the number of instances of one entity that can be associated with instances of another entity.
+
+What is data redundancy?
+Data redundancy refers to duplication of data in multiple places.
+
+What is data integrity?
+Data integrity ensures accuracy and consistency of stored data.
+
+What is a relational model?
+The relational model represents data in the form of tables with rows and columns.
+
+What is a tuple?
+A tuple represents a single row in a relational table.
+
+What is an attribute in relational model?
+An attribute is a column in a relational table.
